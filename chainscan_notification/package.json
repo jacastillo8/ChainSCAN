@@ -1,0 +1,21 @@
+{
+  "name": "chainscan-notification-system",
+  "version": "1.0.0",
+  "description": "Automatic Notification system that sends emails to affected consumers in ChainSCAN",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node scripts/main.ts",
+    "getTestClient": "node scripts/getTestClient.js"
+  },
+  "author": "Jorge Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^10.0.0",
+    "fabric-ca-client": "beta",
+    "fabric-network": "beta",
+    "nodemailer": "^6.7.6",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.4.3"
+  }
+}

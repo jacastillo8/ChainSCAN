@@ -1,0 +1,17 @@
+{
+	"name": "owner-shim",
+	"version": "1.0.0",
+	"description": "Chaincode to regulate Ownership and owners",
+	"engines": {
+		"node": ">=8.4.0",
+		"npm": ">=5.3.0"
+	},
+	"scripts": { "start" : "node owner-shim.js" },
+	"engine-strict": true,
+	"author": "Jorge Castillo",
+	"license": "ISC",
+	"homepage": "https://bitbucket.org/jacastillo8/ownership_contract#readme",
+	"dependencies": {
+        "fabric-shim": "~1.4.0"
+	}
+}

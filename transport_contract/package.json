@@ -1,0 +1,19 @@
+{
+    "name": "transport-shim",
+    "version": "1.0.0",
+    "description": "Contract that regulates data collection",
+    "engines": {
+      "node": ">=8.4.0",
+      "npm": ">=5.3.0"
+    },
+    "scripts": {
+      "start": "node transport-shim.js"
+    },
+    "engine-strict": true,
+    "author": "Jorge Castillo",
+    "license": "ISC",
+    "dependencies": {
+      "fabric-shim": "~1.4.0"
+    }
+  }
+  

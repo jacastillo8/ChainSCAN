@@ -1,0 +1,8 @@
+/chainscan_notification/wallet/*
+/chainscan_notification/ccp/*
+/chainscan_notification/node_modules
+/chainscan_notification/.env
+/chainscan_notification/package-lock.json
+
+!/chainscan_notification/ccp/.gitkeep
+!/chainscan_notification/wallet/.gitkeep
